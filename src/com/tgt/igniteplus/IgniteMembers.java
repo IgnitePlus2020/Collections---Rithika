@@ -1,0 +1,72 @@
+package com.tgt.igniteplus;
+
+import java.util.Set;
+
+public class IgniteMembers {
+    private String name;
+    private String college;
+    private String department;
+    private int age;
+    private Set<String> skillSet;
+
+
+
+    public IgniteMembers(String name, String college, int age, Set<String> skillSet, String department) {
+        this.name = name;
+        this.college = college;
+        this.age = age;
+        this.skillSet = skillSet;
+        this.department=department;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCollege() {
+        return college;
+    }
+
+    public void setCollege(String college) {
+        this.college = college;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public Set<String> getSkillSet() {
+        return skillSet;
+    }
+
+    public void setSkillSet(Set<String> skillSet) {
+        this.skillSet = skillSet;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "name='" + name + '\'' +
+                        ", college='" + college + '\'' +
+                        ", age=" + age +
+                        ", skillSet='" + skillSet + '\'' ;
+    }
+
+}
+
