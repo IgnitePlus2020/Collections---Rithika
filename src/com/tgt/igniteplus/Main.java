@@ -5,7 +5,7 @@
             Feature Added : Adding skillSets for a particular Department
       * Deleting a particular Department
       * Method to display all the departments
-            Feature Added : List all the users who have the skill given as input along with their Departments
+            Feature Added : Change the members from one Department to Another*/
       * Create a Member and Add the Members to the Department
  */
 package com.tgt.igniteplus;
